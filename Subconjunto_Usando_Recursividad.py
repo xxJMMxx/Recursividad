@@ -1,9 +1,9 @@
 def Subconjunto_de_un_conjunto(conjunto, n):
     if n == 0:
-        return [["no hay una cantidad de elementos para hacer un subconjunto de m"]]
+        return [[]]
 
     if len(conjunto) == 0:
-        print([["el conjunto m esta vacio"]])
+        print([[]])
 
     subconjunto = []
     for i in range(0, len(conjunto)):
