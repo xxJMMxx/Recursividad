@@ -3,7 +3,7 @@ def Subconjunto_de_un_conjunto(conjunto, n):
         return [[]]
 
     if len(conjunto) == 0:
-        print([[]])
+        return [[]]
 
     subconjunto = []
     for i in range(0, len(conjunto)):
